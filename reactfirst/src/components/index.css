@@ -1,0 +1,9 @@
+.colorname{
+    color:red;
+    background-color: #deb887;
+    float : "left";
+    padding:"5px";
+    margin:"2px";
+    border:"2px solid red";
+    border-radius: "5px"
+}

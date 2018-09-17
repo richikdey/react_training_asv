@@ -1,0 +1,10 @@
+const selectFeedback = (feedback) =>{
+
+    console.log(feedback.id);
+    return {
+        type:"FEEDBACK_CLICKED",
+        payload:feedback
+    }
+
+}
+export default selectFeedback;
