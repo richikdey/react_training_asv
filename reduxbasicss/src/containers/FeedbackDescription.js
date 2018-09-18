@@ -28,7 +28,8 @@ class FeedbackDescription  extends Component {
 
     }
 
-    dispatchNewTitle(){
+    dispatchNewTitle(e){
+        e.preventDefault();
         this.props.updateTitleLocal(this.state.updatedFB)
     }
     render() { 

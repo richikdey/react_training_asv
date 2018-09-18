@@ -34,7 +34,7 @@ class Product extends Component {
                 <div className="middle aligned content">
                     <div className="header">
                         {this.props.vote}
-                </div>
+                    </div>
                     <div className="description">
                         <a>{this.props.title}</a>
                         <p>{this.props.description}</p>
